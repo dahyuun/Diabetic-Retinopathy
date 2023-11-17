@@ -181,7 +181,7 @@ history = model.fit(
     callbacks=[early_stopping]
 )
 
-# 학습 과정에서의 Loss와 Accuracy를 출력합니다.
+# 학습 과정에서의 Loss와 Accuracy를 출력
 print("Train Loss:", history.history['loss'])
 print("Train Accuracy:", history.history['accuracy'])
 print("Validation Loss:", history.history['val_loss'])
